@@ -1,3 +1,5 @@
+// * MIXINS *
+
 // Centered with flex
 @mixin centeredFlex($type: flex, $justify-content: center, $align-items: center) {
     display: $type;

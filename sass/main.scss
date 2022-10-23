@@ -1,7 +1,45 @@
 @import "./utils/vars";
 @import "./utils/utils";
 @import "./utils/mixins";
+
+// common
+@import "./components/common/button";
+@import "./components/common/logo";
+
+// HEADER
 @import "./components/header";
-@import "./components/logo";
 @import "./components/nav-menu";
-@import "./components/button";
+@import "./components/contacts";
+
+// INDEX PAGE
+// hero section
+@import "./components/hero-section";
+
+// modal
+@import "./components/modal";
+@import "./components/close-button";
+@import "./components/callback-form";
+
+// features section
+@import "./components/features-section";
+
+// about section
+@import "./components/about-section";
+@import "./components/services";
+
+// team section
+@import "./components/team-section";
+@import "./components/employees";
+@import "./components/socials";
+
+// clients section
+@import "./components/clients";
+
+// PORTFOLIO PAGE
+@import "./components/filter-nav";
+@import "./components/portfolio";
+
+// FOOTER
+@import "./components/footer";
+@import "./components/address";
+@import "./components/subscribe-form";

@@ -1,0 +1,51 @@
+// * SOCIALS *
+
+.socials {
+    @include centeredFlex();
+    gap: 10px;
+}
+
+.socials__item {
+    display: flex;
+}
+
+.socials__link {
+    @include centeredFlex();
+    padding: 0;
+    border: none;
+
+    width: 44px;
+    height: 44px;
+
+    transition: background-color $transition-dur-and-func,
+        color $transition-dur-and-func;
+
+    background-color: transparent;
+    color: $icon-color;
+    border-radius: 50%;
+
+    &:hover,
+    &:focus {
+        background-color: $accent;
+        color: $white;
+    }
+}
+
+.socials__icon {
+    fill: currentColor;
+}
+
+
+// * SOCIALS--DARK *
+
+.socials__link--dark {
+    transition: background-color $transition-dur-and-func;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    color: $white;
+
+    &:hover,
+    &:focus {
+        background-color: $accent;
+    }
+}

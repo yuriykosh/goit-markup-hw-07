@@ -1,3 +1,5 @@
+// * Header *
+
 .header {
     background-color: $bg-color--bright;
     border-bottom: 1px solid #ececec;
@@ -11,42 +13,4 @@
     display: flex;
     align-items: center;
     column-gap: 93px;
-}
-
-// * Header Contacts *
-
-.header-contacts {
-    display: flex;
-    column-gap: 50px;
-}
-
-.header-contacts__link {
-    display: flex;
-    align-items: center;
-    column-gap: 10px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    transition: color $transition-dur-and-func;
-
-    color: $secondary-text-color;
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-
-    &:link,
-    &:visited {
-        color: $secondary-text-color;
-    }
-
-    &:hover,
-    &:focus {
-        color: $text-color--accent;
-    }
-}
-
-.header-contacts__icon {
-    fill: currentColor;
 }
