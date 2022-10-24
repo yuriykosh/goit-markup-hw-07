@@ -1,16 +1,16 @@
 // * Header *
 
 .header {
-    background-color: $bg-color--bright;
-    border-bottom: 1px solid #ececec;
+  background-color: $bg-color--bright;
+  border-bottom: 1px solid #ececec;
 
-    & .container {
-            @include centeredFlex($justify-content: space-between);
-        }
+  & .container {
+    @include centeredFlex($justify-content: space-between);
+  }
 }
 
 .wrapper--header {
-    display: flex;
-    align-items: center;
-    column-gap: 93px;
+  display: flex;
+  align-items: center;
+  column-gap: 93px;
 }

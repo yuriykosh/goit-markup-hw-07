@@ -1,48 +1,50 @@
 // * HERO SECTION *
 
 .section--hero {
-    max-width: 1600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
 
-    background-color: $grey;
-    background-image: linear-gradient(to right,
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/hero.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-color: $grey;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-    text-align: center;
+  text-align: center;
 }
 
 /* heading */
 
 .title-hero {
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-left: auto;
-    max-width: 696px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  max-width: 696px;
 
-    color: $text-color--bright;
+  color: $text-color--bright;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* button */
 
 .button--hero {
-    display: inline-block;
+  display: inline-block;
 
-    padding-right: 32px;
-    padding-left: 32px;
-    min-width: 216px;
+  padding-right: 32px;
+  padding-left: 32px;
+  min-width: 216px;
 }

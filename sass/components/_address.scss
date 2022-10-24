@@ -1,22 +1,22 @@
 // * ADDRESS *
 
 .address {
-    margin-top: 20px;
+  margin-top: 20px;
 
-    font-style: normal;
+  font-style: normal;
 }
 
 .address__item:not(:last-child) {
-    margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .address__link {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 
-    font-size: 14px;
-    line-height: 1.2;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .address__link--location {
-    color: $text-color--bright;
+  color: $text-color--bright;
 }

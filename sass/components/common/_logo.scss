@@ -1,16 +1,16 @@
 .logo {
-    color: #000;
+  color: #000;
 
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 
-    &__accent {
-            color: $accent;
-        }
+  &__accent {
+    color: $accent;
+  }
 
-    &--footer {
-            color: inherit;
-        }
+  &--footer {
+    color: inherit;
+  }
 }
