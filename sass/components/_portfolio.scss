@@ -41,7 +41,7 @@
     height: 100%;
 
     transform: translateY(100%);
-    transition: transform var(--transition-dur-and-func);
+    transition: transform $transition-dur-and-func;
 
     background-color: rgba(33, 150, 243, 0.9);
 
@@ -50,6 +50,8 @@
         transform: translateY(0);
     }
 }
+
+
 
 .portfolio__description {
     display: block;
