@@ -40,7 +40,7 @@
   line-height: 1.166;
   letter-spacing: 0.01em;
 
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
 }
 
 // input
@@ -54,7 +54,7 @@
   width: 100%;
 
   outline: none;
-  transition: border $transition-dur-and-func;
+  transition: border var(--transition-dur-and-func);
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -63,10 +63,10 @@
   line-height: 1.166;
   letter-spacing: 0.01em;
 
-  color: $text-color--dark;
+  color: var(--text-color--dark);
 
   &:focus {
-    border: 1px solid $accent;
+    border: 1px solid var(--accent);
   }
 
   &::placeholder {
@@ -83,17 +83,17 @@
   top: 50%;
   left: 12px;
 
-  transition: color $transition-dur-and-func;
+  transition: color var(--transition-dur-and-func);
 
   display: inline-block;
   width: 18px;
   height: 18px;
 
-  color: $text-color--dark;
+  color: var(--text-color--dark);
   fill: currentColor;
 
   .callback-form__field:focus-within > & {
-    color: $text-color--accent;
+    color: var(--text-color--accent);
   }
 }
 
@@ -129,15 +129,15 @@
 
   cursor: pointer;
 
-  transition: background-color $transition-dur-and-func,
-    border $transition-dur-and-func;
+  transition: background-color var(--transition-dur-and-func),
+    border var(--transition-dur-and-func);
 
-  background-color: $bg-color--bright;
-  border: 2px solid $text-color--dark;
+  background-color: var(--bg-color--bright);
+  border: 2px solid var(--text-color--dark);
   border-radius: 2px;
 
   .callback-form__checkbox:checked + & {
-    background-color: $accent;
+    background-color: var(--accent);
     border: none;
   }
 }
@@ -148,13 +148,13 @@
   font-size: 14px;
   line-height: 1.714;
 
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
 }
 
 .callback-form__checkbox-link {
   text-decoration-line: underline;
 
-  color: $text-color--accent;
+  color: var(--text-color--accent);
 }
 
 // submit button

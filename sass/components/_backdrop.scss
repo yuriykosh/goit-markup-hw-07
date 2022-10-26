@@ -8,10 +8,10 @@
   height: 100%;
   z-index: 100;
 
-  background-color: $bg-color--backdrop;
+  background-color: var(--bg-color--backdrop);
 
   opacity: 1;
-  transition: opacity $transition-dur-and-func;
+  transition: opacity var(--transition-dur-and-func);
 }
 
 .backdrop.is-hidden {

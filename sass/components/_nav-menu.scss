@@ -10,7 +10,7 @@
 
   transition: color var(--transition-dur-and-func);
 
-  color: $text-color--dark;
+  color: var(--text-color--dark);
 
   font-weight: 500;
   font-size: 14px;
@@ -19,12 +19,12 @@
 
   &:visited,
   &:active {
-    color: $text-color--dark;
+    color: var(--text-color--dark);
   }
 
   &:hover,
   &:focus {
-    color: $text-color--accent;
+    color: var(--text-color--accent);
   }
 }
 
@@ -32,7 +32,7 @@
 .nav-menu__link--current:visited {
   position: relative;
 
-  color: $text-color--accent;
+  color: var(--text-color--accent);
 }
 
 .nav-menu__link--current::after {
@@ -47,5 +47,5 @@
   height: 4px;
   border-radius: 2px;
 
-  background-color: $accent;
+  background-color: var(--accent);
 }

@@ -3,7 +3,7 @@
 .team {
   @extend %section;
 
-  background-color: $secondary-bg-color;
+  background-color: var(--secondary-bg-color);
 
   text-align: center;
 }

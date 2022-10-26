@@ -8,10 +8,10 @@
   width: 30px;
   height: 30px;
 
-  transition: color $transition-dur-and-func;
+  transition: color var(--transition-dur-and-func);
 
   color: #000;
-  background-color: $bg-color--bright;
+  background-color: var(--bg-color--bright);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
@@ -20,7 +20,7 @@
 .close-button:focus {
   cursor: pointer;
 
-  color: $text-color--accent;
+  color: var(--text-color--accent);
 }
 
 .close-button__icon {

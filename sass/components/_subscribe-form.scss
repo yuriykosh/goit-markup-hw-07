@@ -13,11 +13,11 @@
   padding-bottom: 15px;
   padding-left: 16px;
 
-  transition: border $transition-dur-and-func;
+  transition: border var(--transition-dur-and-func);
   outline: none;
 
   background-color: transparent;
-  color: $text-color--bright;
+  color: var(--text-color--bright);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -27,7 +27,7 @@
   letter-spacing: 0.03em;
 
   &:focus {
-    border: 1px solid $accent;
+    border: 1px solid var(--accent);
   }
 
   &::placeholder {

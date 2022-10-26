@@ -7,7 +7,7 @@
   line-height: 1.2;
 
   &__accent {
-    color: $accent;
+    color: var(--accent);
   }
 
   &--footer {
