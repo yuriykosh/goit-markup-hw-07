@@ -9,6 +9,8 @@
 }
 
 .footer__container {
+  @extend %container;
+
   @include centeredFlex(
     $type: flex,
     $justify-content: space-between,
@@ -27,7 +29,7 @@
 
 /* TITLES */
 
-.title-footer {
+.footer__title {
   margin-top: 0;
   margin-bottom: 20px;
 

@@ -1,15 +1,15 @@
-// * SERVICES *
+// * SERVICE-PANNEL *
 
-.service {
+.service-pannel {
   display: flex;
   justify-content: space-between;
 }
 
-.service__card {
+.service-pannel__item {
   position: relative;
 }
 
-.service__description {
+.service-pannel__description {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.service__title {
+.service-pannel__title {
   margin-top: 0;
   margin-bottom: 0;
 

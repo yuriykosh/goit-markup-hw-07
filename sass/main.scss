@@ -1,45 +1,32 @@
 @import "./utils/vars";
-@import "./utils/utils";
+@import "./utils/placeholders";
 @import "./utils/mixins";
+@import "./utils/visually-hidden";
 
-// common
-@import "./components/common/button";
-@import "./components/common/logo";
+@import "./base/base";
+@import "./base/section";
 
-// HEADER
-@import "./components/header";
+@import "./components/button";
+@import "./components/logo";
+@import "./components/navigation";
 @import "./components/nav-menu";
 @import "./components/contacts";
-
-// INDEX PAGE
-// hero section
-@import "./components/hero-section";
-
-// modal
-@import "./components/modal";
+@import "./components/service-pannel";
+@import "./components/employees";
+@import "./components/socials";
+@import "./components/filter";
+@import "./components/address";
+@import "./components/subscribe-form";
+@import "./components/backdrop";
+@import "./components/modal-window";
 @import "./components/close-button";
 @import "./components/callback-form";
 
-// features section
-@import "./components/features-section";
-
-// about section
-@import "./components/about-section";
-@import "./components/services";
-
-// team section
-@import "./components/team-section";
-@import "./components/employees";
-@import "./components/socials";
-
-// clients section
-@import "./components/clients";
-
-// PORTFOLIO PAGE
-@import "./components/filter-nav";
-@import "./components/portfolio";
-
-// FOOTER
-@import "./components/footer";
-@import "./components/address";
-@import "./components/subscribe-form";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/services";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/portfolio";
+@import "./layout/footer";

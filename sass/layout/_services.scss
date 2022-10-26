@@ -1,5 +1,7 @@
 // * "ЧИМ МИ ЗАЙМАЄМОСЯ" SECTION *
 
-.section--about {
+.services {
+  @extend %section;
+
   padding-top: 0;
 }

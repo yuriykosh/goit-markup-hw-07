@@ -1,7 +1,7 @@
 // * CALLBACK FORM *
 
 .callback-form {
-  align-items: center;
+  text-align: center;
 }
 
 // heading
@@ -159,7 +159,11 @@
 
 // submit button
 .callback-form__button--submit {
+  @extend %button;
+
   display: inline-block;
   padding-left: 52px;
   padding-right: 52px;
+  margin-left: auto;
+  margin-right: auto;
 }

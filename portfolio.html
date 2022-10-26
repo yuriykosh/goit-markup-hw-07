@@ -29,37 +29,37 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="wrapper--header">
+      <div class="header__container">
+        <nav class="navigation">
           <!-- logo -->
-          <a class="logo link" href="index.html"
+          <a class="logo" href="index.html"
             ><span class="logo__accent">Web</span>Studio</a
           >
 
           <!-- menu -->
-          <ul class="nav-menu list">
+          <ul class="nav-menu">
             <li class="nav-menu__item">
-              <a class="nav-menu__link link" href="index.html">Студія</a>
+              <a class="nav-menu__link" href="index.html">Студія</a>
             </li>
 
             <li class="nav-menu__item">
               <a
-                class="nav-menu__link link nav-menu__link--current"
+                class="nav-menu__link nav-menu__link--current"
                 href="portfolio.html"
                 >Портфоліо</a
               >
             </li>
 
             <li class="nav-menu__item">
-              <a class="nav-menu__link link" href="/">Контакти</a>
+              <a class="nav-menu__link" href="/">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <!-- contacts -->
-        <ul class="contacts list">
+        <ul class="contacts">
           <li class="contacts__item">
-            <a class="contacts__link link" href="mailto:info@devstudio.com">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
               <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/sprite.svg#envelope"></use></svg
               >info@devstudio.com</a
@@ -67,7 +67,7 @@
           </li>
 
           <li class="contacts__item">
-            <a class="contacts__link link" href="tel:+380961111111">
+            <a class="contacts__link" href="tel:+380961111111">
               <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
@@ -80,8 +80,8 @@
     <main>
       <!-- PORTFOLIO SECTION -->
       <section class="section">
-        <div class="container">
-          <h1 class="title-section visually-hidden">Портфоліо</h1>
+        <div class="section__container">
+          <h1 class="section__title visually-hidden">Портфоліо</h1>
 
           <!--Filter Navigation-->
           <!-- <ul class="filter-nav list">
@@ -110,78 +110,78 @@
             </li>
           </ul> -->
 
-          <form class="filter-nav">
-            <ul class="filter-nav__list list">
-              <li class="filter-nav__item">
-                <label class="filter-nav__field">
+          <form class="filter">
+            <ul class="filter__list">
+              <li class="filter__item">
+                <label class="filter__field">
                   <input
-                    class="filter-nav__input visually-hidden"
+                    class="filter__input visually-hidden"
                     type="radio"
                     name="filter"
                     value="all"
                     checked
                   />
-                  <span class="filter-nav__label">Усі</span>
+                  <span class="filter__label">Усі</span>
                 </label>
               </li>
 
-              <li class="filter-nav__item">
-                <label class="filter-nav__field">
+              <li class="filter__item">
+                <label class="filter__field">
                   <input
-                    class="filter-nav__input visually-hidden"
+                    class="filter__input visually-hidden"
                     type="radio"
                     name="filter"
                     value="websites"
                   />
-                  <span class="filter-nav__label">Веб-сайти</span>
+                  <span class="filter__label">Веб-сайти</span>
                 </label>
               </li>
 
-              <li class="filter-nav__item">
-                <label class="filter-nav__field">
+              <li class="filter__item">
+                <label class="filter__field">
                   <input
-                    class="filter-nav__input visually-hidden"
+                    class="filter__input visually-hidden"
                     type="radio"
                     name="filter"
                     value="apps"
                   />
-                  <span class="filter-nav__label">Додатки</span>
+                  <span class="filter__label">Додатки</span>
                 </label>
               </li>
 
-              <li class="filter-nav__item">
-                <label class="filter-nav__field">
+              <li class="filter__item">
+                <label class="filter__field">
                   <input
-                    class="filter-nav__input visually-hidden"
+                    class="filter__input visually-hidden"
                     type="radio"
                     name="filter"
                     value="design"
                   />
-                  <span class="filter-nav__label">Дизайн</span>
+                  <span class="filter__label">Дизайн</span>
                 </label>
               </li>
 
-              <li class="filter-nav__item">
-                <label class="filter-nav__field">
+              <li class="filter__item">
+                <label class="filter__field">
                   <input
-                    class="filter-nav__input visually-hidden"
+                    class="filter__input visually-hidden"
                     type="radio"
                     name="filter"
                     value="marketing"
                   />
-                  <span class="filter-nav__label">Маркетинг</span>
+                  <span class="filter__label">Маркетинг</span>
                 </label>
               </li>
             </ul>
           </form>
 
           <!-- Portfolio Gallery -->
-          <ul class="portfolio list">
+          <ul class="portfolio">
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio1.jpeg"
                     alt="Веб-сайт на мокапі лєптопа"
                     width="370"
@@ -206,10 +206,10 @@
             </li>
 
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio2.jpeg"
                     alt="Ігровий момент гравців команд НБА з графічними елементами"
                     width="370"
@@ -234,10 +234,10 @@
             </li>
 
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio3.jpeg"
                     alt="Логотип ресторану з назвою на передньому плані та малюнком риби позаду"
                     width="370"
@@ -260,10 +260,10 @@
             </li>
 
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio4.jpeg"
                     alt="Чорні бездротові навушники на білому фоні"
                     width="370"
@@ -286,10 +286,10 @@
             </li>
 
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio5.jpeg"
                     alt="Графічні коробки різного кольору з місцеп під опис"
                     width="370"
@@ -312,10 +312,10 @@
             </li>
 
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio6.jpeg"
                     alt="Компьютер айМак з макетом веб-сайта на екрані"
                     width="370"
@@ -338,10 +338,10 @@
             </li>
 
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio7.jpeg"
                     alt="Графічний макет розгорнутого журналу"
                     width="370"
@@ -364,10 +364,10 @@
             </li>
 
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio8.jpeg"
                     alt="Мокап бірки з місцем під опис"
                     width="370"
@@ -390,10 +390,10 @@
             </li>
 
             <li class="portfolio__item">
-              <a class="portfolio__link link" href="/">
+              <a class="portfolio__link" href="/">
                 <div class="portfolio__thumb">
                   <img
-                    class="portfolio__image img"
+                    class="portfolio__image"
                     src="./images/portfolio9.jpeg"
                     alt="Людина користуется лептопом поруч з купою паперу. На екрані представлений макет веб-сайту"
                     width="370"
@@ -420,18 +420,18 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__container container">
+      <div class="footer__container">
         <div class="footer__left">
           <div>
-            <a class="logo logo--footer link" href="index.html"
+            <a class="logo logo--footer" href="index.html"
               ><span class="logo__accent">Web</span>Studio</a
             >
 
             <address class="address">
-              <ul class="address__list list">
+              <ul class="address__list">
                 <li class="address__item">
                   <a
-                    class="address__link address__link--location link"
+                    class="address__link address__link--location"
                     href="https://goo.gl/maps/HwtQE2mgHwNeuMtz8"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -440,13 +440,13 @@
                 </li>
 
                 <li class="address__item">
-                  <a class="address__link link" href="mailto:info@devstudio.com"
+                  <a class="address__link" href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
 
                 <li class="address__item">
-                  <a class="address__link link" href="tel:+380961111111"
+                  <a class="address__link" href="tel:+380961111111"
                     >+38 096 111 11 11</a
                   >
                 </li>
@@ -455,32 +455,32 @@
           </div>
 
           <div class="join">
-            <h3 class="title-footer">Приєднуйтесь</h3>
+            <h3 class="footer__title">Приєднуйтесь</h3>
 
-            <ul class="socials list">
+            <ul class="socials">
               <li class="socials__item">
-                <a class="socials__link socials__link--dark link" href=""
+                <a class="socials__link socials__link--dark" href=""
                   ><svg class="socials__icon" width="20" height="20">
                     <use href="./images/sprite.svg#instagram"></use></svg
                 ></a>
               </li>
 
               <li class="socials__item">
-                <a class="socials__link socials__link--dark link" href=""
+                <a class="socials__link socials__link--dark" href=""
                   ><svg class="socials__icon" width="20" height="20">
                     <use href="./images/sprite.svg#twitter"></use></svg
                 ></a>
               </li>
 
               <li class="socials__item">
-                <a class="socials__link socials__link--dark link" href=""
+                <a class="socials__link socials__link--dark" href=""
                   ><svg class="socials__icon" width="20" height="20">
                     <use href="./images/sprite.svg#facebook"></use></svg
                 ></a>
               </li>
 
               <li class="socials__item">
-                <a class="socials__link socials__link--dark link" href=""
+                <a class="socials__link socials__link--dark" href=""
                   ><svg class="socials__icon" width="20" height="20">
                     <use href="./images/sprite.svg#linkedin"></use></svg
                 ></a>
@@ -490,7 +490,7 @@
         </div>
 
         <div class="subscribe">
-          <h3 class="title-footer">Підпишіться на розсилку</h3>
+          <h3 class="footer__title">Підпишіться на розсилку</h3>
 
           <form class="subscribe-form">
             <label class="subscribe-form__field">

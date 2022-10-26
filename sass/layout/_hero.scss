@@ -1,6 +1,6 @@
 // * HERO SECTION *
 
-.section--hero {
+.hero {
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -23,7 +23,7 @@
 
 /* heading */
 
-.title-hero {
+.hero__title {
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 30px;
@@ -41,7 +41,8 @@
 
 /* button */
 
-.button--hero {
+.hero__button {
+  @extend %button;
   display: inline-block;
 
   padding-right: 32px;

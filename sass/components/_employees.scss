@@ -6,7 +6,7 @@
   gap: 30px;
 }
 
-.employee__card {
+.employee__item {
   width: calc((100% - 90px) / 4);
 
   background-color: $bg-color--bright;
@@ -21,7 +21,7 @@
   padding-bottom: 30px;
 }
 
-.employee__name {
+.employee__title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -30,7 +30,7 @@
   line-height: 1.2;
 }
 
-.employee__position {
+.employee__description {
   margin-top: 0;
   margin-bottom: 16;
 
@@ -38,8 +38,4 @@
 
   font-size: 16px;
   line-height: 1.2;
-}
-
-.employee__socials {
-  @include centeredFlex();
 }

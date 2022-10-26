@@ -1,6 +1,8 @@
 // * "НАША КОМАНДА" SECTION *
 
-.section--team {
+.team {
+  @extend %section;
+
   background-color: $secondary-bg-color;
 
   text-align: center;

@@ -1,4 +1,4 @@
-.button {
+%button {
   @include centeredFlex();
 
   padding-top: 10px;
@@ -25,4 +25,8 @@
 
     background-color: $accent--active;
   }
+}
+
+.button {
+  @extend %button;
 }
